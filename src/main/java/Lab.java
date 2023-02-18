@@ -1,4 +1,8 @@
 public class Lab {
+    String Display()
+    {
+        return "Hello, world!";
+    }
     /**
      * TODO: Change this method so that it returns "Hello, world!"
      *
@@ -14,7 +18,8 @@ public class Lab {
      * 
      * @return "Hello, world!"
      */
-    public String sayHello(){
-        return "change me";
+    public Static void main(String[]args){
+        Lab o = Lab();
+        System.out.println(o.Display());
     }
 }
