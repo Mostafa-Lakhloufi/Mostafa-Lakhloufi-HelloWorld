@@ -1,7 +1,7 @@
 public class Lab {
     String Display()
     {
-        return "Hello, world!";
+        return ("Hello, world!");
     }
     /**
      * TODO: Change this method so that it returns "Hello, world!"
