@@ -1,5 +1,5 @@
 public class Lab {
-    String Display()
+    public String sayHello()
     {
         return ("Hello, world!");
     }
@@ -18,8 +18,5 @@ public class Lab {
      * 
      * @return "Hello, world!"
      */
-    public Static void main(String[]args){
-        Lab o = Lab();
-        System.out.println(o.Display());
+    
     }
-}
